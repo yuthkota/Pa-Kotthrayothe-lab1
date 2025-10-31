@@ -1,0 +1,30 @@
+{
+  "name": "pa-kotthrayothe-lab1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --exit",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuthkota/Pa-Kotthrayothe-lab1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yuthkota/Pa-Kotthrayothe-lab1/issues"
+  },
+  "homepage": "https://github.com/yuthkota/Pa-Kotthrayothe-lab1#readme",
+  "dependencies": {
+    "chai": "^4.5.0",
+    "eslint": "^8.57.1",
+    "express": "^5.1.0",
+    "mocha": "^11.7.4",
+    "supertest": "^7.1.4"
+  }
+}
